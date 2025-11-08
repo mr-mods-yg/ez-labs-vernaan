@@ -2,7 +2,7 @@
 function Portfolio() {
     return (
         <div className="h-dvh flex flex-col lg:flex-row snap-start justify-around items-center">
-            <div className="w-full h-full flex flex-col gap-5 pt-18 sm:pt-15 relative">
+            <div className="w-full h-full flex flex-col gap-20 md:gap-10 pt-18 sm:pt-15 relative">
                 <div className="flex flex-col items-center w-full gap-2">
                     <p className="font-halant text-4xl">The Highlight Reel</p>
                     <p className="font-halant text-2xl">Watch the magic we’ve captured.</p>
@@ -10,11 +10,11 @@ function Portfolio() {
 
                 <div className="flex justify-center w-full gap-5">
                     <div className="hidden flex-1 h-full md:flex justify-center items-start lg:-translate-y-10">
-                        <img className="h-100 w-46" src={"/assets/portfolio_section/Cam Group.svg"} />
+                        <img className="h-100 w-46" src={"/assets/portfolio_section/Cam_Group.svg"} />
                     </div>
                     <div className="relative w-full max-w-[650px] aspect-[220/130]">
                         <img
-                            src="/assets/portfolio_section/Cam Reel.svg"
+                            src="/assets/portfolio_section/Cam_Reel.svg"
                             alt="Cam Reel"
                             className="absolute inset-0 w-full h-full object-contain"
                         />
@@ -26,7 +26,7 @@ function Portfolio() {
                                 </svg>
                             </div>
                             <div className="flex-1 h-full">
-                                <img className="w-full h-full object-cover" src="/assets/portfolio_section/Video Frame.png" alt="Video Frame" />
+                                <img className="w-full h-full object-cover" src="/assets/portfolio_section/Video_Frame.png" alt="Video Frame" />
                             </div>
                             <div className="h-full bg-white flex items-center justify-center">
                                 <svg className="size-10 md:size-15 lg:size-20 hover:scale-105 transition-transform" width="51" height="132" viewBox="0 0 51 132" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -59,7 +59,7 @@ function Portfolio() {
                     <div className="hidden md:block flex-1"></div>
                 </div>
                 <img
-                    src={"/assets/portfolio_section/Footer Vector.svg"}
+                    src={"/assets/portfolio_section/Footer_Vector.svg"}
                     alt="Footer Vector"
                     className="absolute bottom-0 right-0 w-40 h-80 md:w-[224px] md:h-[509px] opacity-100 rotate-0 z-50"
                 />

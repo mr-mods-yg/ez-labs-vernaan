@@ -12,13 +12,13 @@ function AboutUs() {
                     <img src={"/assets/about_us_experts_team.svg"} className="size-32 md:size-64 md:-mr-2" />
                 </p>
             </div>
-            <div className="w-9/10 md:w-1/2 flex flex-col h-full justify-end text-center items-end gap-5">
+            <div className="w-9/10 md:w-1/2 flex flex-col h-full justify-end text-center items-end">
                 <div className="font-island-moments text-3xl md:text-4xl lg:text-[60px] md:mx-10">
                     Every project is more than just a brief - it’s a new chapter waiting to be written.
                     Together, we&apos;ve crafted tales that inspire, connect, and endure.</div>
                 <div className="grid place-items-center mx-10">
-                    <img className="col-start-1 row-start-1 z-10" src={"/assets/AboutUsBrandCircle.svg"} />
-                    <img className="col-start-1 row-start-1 z-1 w-110 h-70 self-end" src={"/assets/AboutUsMountains.svg"} />
+                    <img className="col-start-1 row-start-1 z-10 h-30" src={"/assets/AboutUsBrandCircle.svg"} />
+                    <img className="col-start-1 row-start-1 z-1 w-70 h-30 md:w-110 md:h-70 self-end" src={"/assets/AboutUsMountains.svg"} />
                 </div>
             </div>
         </div>

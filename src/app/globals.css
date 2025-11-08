@@ -23,4 +23,5 @@ body {
   --font-instrument: "Instrument Sans", sans-serif;
   --font-halant: "Halant", serif;
   --font-island-moments: "Island Moments", cursive;
+  --breakpoint-xs: 30rem;
 }

@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar"
 import AboutTeam from "@/sections/AboutTeam"
 import AboutUs from "@/sections/AboutUs"
 import Hero from "@/sections/Hero"
+import Portfolio from "@/sections/Portfolio"
 import Services from "@/sections/Services"
 
 function Home() {
@@ -15,6 +16,7 @@ function Home() {
         <AboutTeam />
         <AboutUs />
         <Services />
+        <Portfolio/>
       </div>
     </>
   )

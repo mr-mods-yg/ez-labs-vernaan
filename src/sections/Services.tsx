@@ -1,5 +1,6 @@
 "use client";
 import { ChevronLeftIcon } from "lucide-react";
+import Image from "next/image";
 import { useState } from "react";
 
 type ViewState = 0 | 1 | 2 | 3;
@@ -60,7 +61,7 @@ function FilmProduction({ setView }: DefaultChooseProps) {
                     <button className="p-2 md:p-3 border rounded-3xl flex gap-1 border-[#F15D2B] text-[#F15D2B] font-instrument hover:scale-102 transition-transform" onClick={() => setView(0)}><ChevronLeftIcon /> Back</button>
                 </div>
                 <div className="flex md:h-117 items-end">
-                    <img className="h-54 w-45 md:h-107 md:w-98" src={"/assets/services_section/film_production_card.svg"} />
+                    <Image alt="Film Production image" priority unoptimized height={180} width={216} className="h-54 w-45 md:h-107 md:w-98" src={"/assets/services_section/film_production_card.svg"} />
                 </div>
             </div>
             <div className="w-5/6 md:w-1/2 flex h-full flex-col justify-start font-instrument gap-1 md:text-xl text-[#252729]">
@@ -112,7 +113,12 @@ function Branding({ setView }: DefaultChooseProps) {
                     <button className="p-2 md:p-3 border rounded-3xl flex gap-1 border-[#F15D2B] text-[#F15D2B] font-instrument hover:scale-102 transition-transform" onClick={() => setView(0)}><ChevronLeftIcon /> Back</button>
                 </div>
                 <div className="flex md:h-117 items-end">
-                    <img className="h-54 w-45 md:h-107 md:w-98" src={"/assets/services_section/branding_card.svg"} />
+                    <Image 
+                    alt="Branding Image" 
+                    priority unoptimized
+                    height={180} width={216} 
+                    className="h-54 w-45 md:h-107 md:w-98" 
+                    src={"/assets/services_section/branding_card.svg"} />
                 </div>
             </div>
             <div className="w-5/6 md:w-1/2 flex h-full flex-col justify-start font-instrument gap-1 md:text-xl text-[#252729]">
@@ -165,7 +171,13 @@ function ArtCuration({ setView }: DefaultChooseProps) {
                     <button className="p-2 md:p-3 border rounded-3xl flex gap-1 border-[#F15D2B] text-[#F15D2B] font-instrument hover:scale-102 transition-transform" onClick={() => setView(0)}><ChevronLeftIcon /> Back</button>
                 </div>
                 <div className="flex md:h-117 items-end">
-                    <img className="h-54 w-45 md:h-107 md:w-98" src={"/assets/services_section/art_curation_card.svg"} />
+                    <Image
+                        alt="Art Curation image" height={180} width={216} 
+                        unoptimized
+                        priority
+                        className="h-54 w-45 md:h-107 md:w-98"
+                        src={"/assets/services_section/art_curation_card.svg"}
+                    />
                 </div>
             </div>
             <div className="w-5/6 md:w-1/2 flex h-full flex-col justify-start font-instrument gap-1 md:text-xl text-[#252729]">

@@ -61,7 +61,8 @@ function FilmProduction({ setView }: DefaultChooseProps) {
                     <button className="p-2 md:p-3 border rounded-3xl flex gap-1 border-[#F15D2B] text-[#F15D2B] font-instrument hover:scale-102 transition-transform" onClick={() => setView(0)}><ChevronLeftIcon /> Back</button>
                 </div>
                 <div className="flex md:h-117 items-end">
-                    <Image alt="Film Production image" priority unoptimized height={180} width={216} className="h-54 w-45 md:h-107 md:w-98" src={"/assets/services_section/film_production_card.svg"} />
+                    <Image alt="Film Production image" priority unoptimized height={180} width={216} 
+                    className="h-54 w-45 md:h-107 md:w-98" src={"/assets/services_section/film_production_card.png"} />
                 </div>
             </div>
             <div className="w-5/6 md:w-1/2 flex h-full flex-col justify-start font-instrument gap-1 md:text-xl text-[#252729]">
@@ -176,7 +177,7 @@ function ArtCuration({ setView }: DefaultChooseProps) {
                         unoptimized
                         priority
                         className="h-54 w-45 md:h-107 md:w-98"
-                        src={"/assets/services_section/art_curation_card.svg"}
+                        src={"/assets/services_section/art_curation_card.png"}
                     />
                 </div>
             </div>

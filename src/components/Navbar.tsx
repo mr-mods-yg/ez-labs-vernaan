@@ -34,7 +34,7 @@ function Navbar() {
             alt="menu"
             width={40}
             height={40}
-            className={`col-start-1 row-start-1 transition-opacity duration-500 z-0 ${
+            className={`col-start-1 row-start-1 transition-opacity duration-200 z-0 ${
               showNavItems ? "opacity-0" : "opacity-100"
             }`}
           />
@@ -43,7 +43,7 @@ function Navbar() {
             alt="open"
             width={40}
             height={40}
-            className={`col-start-1 row-start-1 transition-opacity duration-500 z-10 ${
+            className={`col-start-1 row-start-1 transition-opacity duration-200 z-10 ${
               showNavItems ? "opacity-100" : "opacity-0"
             }`}
           />

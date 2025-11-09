@@ -51,7 +51,7 @@ function DefaultChoose({ setView }: DefaultChooseProps) {
 }
 function FilmProduction({ setView }: DefaultChooseProps) {
     return <>
-        <div className="mt-21 md:mt-10 text-base sm:text-lg lg:text-3xl flex flex-col gap-2 items-center">
+        <div className="mt-22 md:mt-10 text-base sm:text-lg lg:text-3xl flex flex-col gap-2 items-center">
             <p className="font-halant">&quot;Filmmaking is a chance to live many lifetimes.&quot; <br className="flex md:hidden" />- Robert Altman</p>
             <img src={"/assets/ServicesHeaderUnderline.svg"} />
         </div>
@@ -74,7 +74,7 @@ function FilmProduction({ setView }: DefaultChooseProps) {
                         <img className="h-36 w-28" src={"/assets/services_section/camera_01.svg"} />
                     </div>
                 </div>
-                <div className="flex justify-between w-110">
+                <div className="flex justify-between md:w-110">
                     <div>
                         V crafts:
                         <ul className="list-disc pl-6">
@@ -90,7 +90,7 @@ function FilmProduction({ setView }: DefaultChooseProps) {
                 </div>
             </div>
         </div>
-        <div className="w-full flex justify-between sm:px-15 md:px-30 lg:px-45 items-center mt-5 md:mt-0">
+        <div className="w-full flex justify-between sm:px-15 md:px-30 lg:px-45 items-center mt-2 md:mt-0">
             <img className="w-28 h-24" src={"/assets/services_section/camera_04.svg"} />
             <div className="flex flex-col items-center justify-start font-instrument md:text-2xl">
                 Explore Now
@@ -104,7 +104,7 @@ function FilmProduction({ setView }: DefaultChooseProps) {
 }
 function Branding({ setView }: DefaultChooseProps) {
     return <>
-        <div className="mt-21 md:mt-10 text-base sm:text-lg lg:text-3xl flex flex-col gap-2 items-center">
+        <div className="mt-22 md:mt-10 text-base sm:text-lg lg:text-3xl flex flex-col gap-2 items-center">
             <p className="font-halant">&quot;A brand is a voice, and a product is a souvenir.&quot; <br className="flex md:hidden" />- Lisa Gansky</p>
             <img src={"/assets/ServicesHeaderUnderline.svg"} />
         </div>
@@ -132,7 +132,7 @@ function Branding({ setView }: DefaultChooseProps) {
                         <img className="h-36 w-28" src={"/assets/services_section/Branding Vector 04.svg"} />
                     </div>
                 </div>
-                <div className="flex justify-between w-110">
+                <div className="flex justify-between md:w-110">
                     <div>
                         V creates:
                         <ul className="list-disc pl-6">
@@ -149,7 +149,7 @@ function Branding({ setView }: DefaultChooseProps) {
                 </div>
             </div>
         </div>
-        <div className="w-full flex justify-between sm:px-15 md:px-30 lg:px-45 items-center mt-5 md:mt-0">
+        <div className="w-full flex justify-between sm:px-15 md:px-30 lg:px-45 items-center mt-2 md:mt-0">
             <img className="w-28 h-24" src={"/assets/services_section/Branding Vector 02.svg"} />
             <div className="flex flex-col items-center justify-start font-instrument md:text-2xl">
                 Explore Now
@@ -162,7 +162,7 @@ function Branding({ setView }: DefaultChooseProps) {
 }
 function ArtCuration({ setView }: DefaultChooseProps) {
     return <>
-        <div className="mt-21 md:mt-10 text-base sm:text-lg lg:text-3xl flex flex-col gap-2 items-center">
+        <div className="mt-22 md:mt-10 text-base sm:text-lg lg:text-3xl flex flex-col gap-2 items-center">
             <p className="font-halant">&quot;V take art where it belongs, to the people.&quot; <br className="flex md:hidden" />- Vernita Verma</p>
             <img src={"/assets/ServicesHeaderUnderline.svg"} />
         </div>
@@ -191,7 +191,7 @@ function ArtCuration({ setView }: DefaultChooseProps) {
                         <img className="h-36 w-28" src={"/assets/services_section/Art Curation Icons 03.svg"} />
                     </div>
                 </div>
-                <div className="flex justify-between w-110">
+                <div className="flex justify-between md:w-110">
                     <div>
                         V curates:
                         <ul className="list-disc pl-6">
@@ -207,7 +207,7 @@ function ArtCuration({ setView }: DefaultChooseProps) {
                 </div>
             </div>
         </div>
-        <div className="w-full flex justify-between sm:px-15 md:px-30 lg:px-45 items-center mt-5 md:mt-0">
+        <div className="w-full flex justify-between sm:px-15 md:px-30 lg:px-45 items-center mt-2 md:mt-0">
             <img className="w-28 h-24" src={"/assets/services_section/Art Curation Icons 02.svg"} />
             <div className="flex flex-col items-center justify-start font-instrument md:text-2xl">
                 Explore Now

@@ -68,14 +68,14 @@ function FilmProduction({ setView }: DefaultChooseProps) {
             </div>
             <div className="w-5/6 md:w-1/2 flex h-full flex-col justify-start font-instrument gap-1 md:text-xl text-[#252729]">
                 <div className="flex justify-between">
-                    <div className="md:mt-20 w-120 pr-3">
+                    <div className="md:mt-20 w-120 pr-3 text-sm md:text-base">
                         Who says films are just an escape?
                         We see them as a way to live many lives - to feel, to explore, and to tell stories that stay. And with each film, we carry new memories and new reasons to keep creating.</div>
                     <div className="h-full flex justify-start">
                         <img className="h-36 w-28" src={"/assets/services_section/camera_01.svg"} />
                     </div>
                 </div>
-                <div className="flex justify-between md:w-110">
+                <div className="flex justify-between md:w-110 text-sm md:text-base">
                     <div>
                         V crafts:
                         <ul className="list-disc pl-6">
@@ -86,7 +86,7 @@ function FilmProduction({ setView }: DefaultChooseProps) {
                         </ul>
                     </div>
                     <div className="h-full flex items-center">
-                        <img className="w-28 h-24" src={"/assets/services_section/camera_03.svg"} />
+                        <img className="h-30 md:h-36 w-28" src={"/assets/services_section/camera_03.svg"} />
                     </div>
                 </div>
             </div>
@@ -103,6 +103,7 @@ function FilmProduction({ setView }: DefaultChooseProps) {
 
     </>
 }
+
 function Branding({ setView }: DefaultChooseProps) {
     return <>
         <div className="mt-22 md:mt-10 text-base sm:text-lg lg:text-3xl flex flex-col gap-2 items-center">
@@ -125,15 +126,15 @@ function Branding({ setView }: DefaultChooseProps) {
             </div>
             <div className="w-5/6 md:w-1/2 flex h-full flex-col justify-start font-instrument gap-1 md:text-xl text-[#252729]">
                 <div className="flex justify-between">
-                    <div className="md:mt-20 w-120 pr-3">
+                    <div className="md:mt-20 w-120 pr-3 text-sm md:text-base">
                         A brand isn’t just what you see - it’s what you remember, what you carry home, and what you trust.
                         We shape brands that people remember, return to, and fall in love with.
                     </div>
                     <div className="h-full flex justify-start">
-                        <img className="h-36 w-28" src={"/assets/services_section/Branding Vector 04.svg"} />
+                        <img className="h-30 md:h-36 w-28" src={"/assets/services_section/Branding Vector 04.svg"} />
                     </div>
                 </div>
-                <div className="flex justify-between md:w-110">
+                <div className="flex justify-between md:w-110 text-sm md:text-base">
                     <div>
                         V creates:
                         <ul className="list-disc pl-6">
@@ -161,6 +162,7 @@ function Branding({ setView }: DefaultChooseProps) {
         </div>
     </>
 }
+
 function ArtCuration({ setView }: DefaultChooseProps) {
     return <>
         <div className="mt-22 md:mt-10 text-base sm:text-lg lg:text-3xl flex flex-col gap-2 items-center">
@@ -184,15 +186,15 @@ function ArtCuration({ setView }: DefaultChooseProps) {
             </div>
             <div className="w-5/6 md:w-1/2 flex h-full flex-col justify-start font-instrument gap-1 md:text-xl text-[#252729]">
                 <div className="flex justify-between">
-                    <div className="md:mt-20 w-120 pr-3">
+                    <div className="md:mt-20 w-120 pr-3 text-sm md:text-base">
                         Art isn’t meant to sit on distant walls - it’s meant to breathe, to travel, to belong.
                         Through every festival, every performance, and every gathering, we help stories find their stage and their people.
                     </div>
                     <div className="h-full flex justify-start">
-                        <img className="h-36 w-28" src={"/assets/services_section/Art Curation Icons 03.svg"} />
+                        <img className="h-30 md:h-36 w-28" src={"/assets/services_section/Art Curation Icons 03.svg"} />
                     </div>
                 </div>
-                <div className="flex justify-between md:w-110">
+                <div className="flex justify-between md:w-110 text-sm md:text-base">
                     <div>
                         V curates:
                         <ul className="list-disc pl-6">

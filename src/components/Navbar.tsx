@@ -8,12 +8,12 @@ function Navbar() {
   const [showNavItems, setShowNavItems] = useState(false);
 
   return (
-    <div className="fixed top-0 left-0 w-full bg-[#FFFBFB59]/35 backdrop-blur-md flex justify-between border-b border-white/10 py-2 z-50">
+    <div className="fixed top-0 left-0 w-full bg-[#FFFBFB59]/35 flex justify-between border-b border-white/10 py-2 z-200">
       <Link href="#hero" className="px-4">
         <Image className="h-12 w-[124px]" alt="logo" src="/logo.png" width={124} height={48} />
-      </Link>
+      </Link> 
 
-      <div className="flex flex-col-reverse md:flex-row gap-1 md:gap-10 items-center md:px-5">
+      <div className="flex flex-col-reverse md:flex-row gap-1 md:gap-10 items-center md:px-5 backdrop-blur-md rounded-2xl">
         {showNavItems && (
           <div className="flex flex-col md:flex-row gap-3 text-lg font-instrument items-center">
             <a className="hover:underline transition-all" href="#services">Services</a>

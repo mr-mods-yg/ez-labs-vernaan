@@ -24,27 +24,28 @@ const Services = () => {
         3: <ArtCuration setView={setView} />,
     };
     return (
-        <div className="h-dvh flex flex-col snap-start justify-center items-center">
+        <div id="services" className="h-dvh flex flex-col snap-start justify-end xs:justify-center items-center gap-5 md:gap-0">
             {components[view]}
         </div>
     )
 }
 function DefaultChoose({ setView }: DefaultChooseProps) {
     return <>
-        <div className="mt-2 sm:mt-0 text-base sm:text-2xl lg:text-4xl flex flex-col gap-2 items-center">The storyboard reveals the breadth of our craft.
+        <div className="xs:mt-2 sm:mt-0 text-base sm:text-2xl lg:text-4xl flex flex-col gap-2 items-center">
+            The storyboard reveals the breadth of our craft.
             <img src={"/assets/ServicesHeaderUnderline.svg"} />
         </div>
-        <div className="flex flex-col sm:flex-row gap-1">
+        <div className="flex flex-col xs:flex-row gap-1">
             <div onClick={() => setView(1)} className="relative hover:scale-102 transition-transform">
-                <img className="h-47 w-40 sm:h-70 md:h-105 lg:h-135 sm:w-105 z-1" src={"/assets/services_section/film_production.svg"} />
+                <img className="h-51 w-46 sm:h-70 md:h-105 lg:h-135 sm:w-105 z-1" src={"/assets/services_section/film_production.svg"} />
                 <img src={"/assets/services_section/tape1.svg"} className="absolute top-0 left-0 h-12 w-20 sm:h-15 sm:w-25 md:h-28 md:w-56 z-10" />
             </div>
             <div onClick={() => setView(2)} className="relative hover:scale-102 transition-transform">
-                <img className="h-47 w-40 sm:h-70 md:h-105 lg:h-135 sm:w-105 z-1" src={"/assets/services_section/branding.svg"} />
+                <img className="h-51 w-46 sm:h-70 md:h-105 lg:h-135 sm:w-105 z-1" src={"/assets/services_section/branding.svg"} />
                 <img src={"/assets/services_section/tape2.svg"} className="absolute top-0 left-1/2 h-12 w-20 sm:h-15 sm:w-25 md:h-28 md:w-56 z-10 -translate-x-1/2" />
             </div>
             <div onClick={() => setView(3)} className="relative hover:scale-102 transition-transform">
-                <img className="h-47 w-40 sm:h-70 md:h-105 lg:h-135 sm:w-105 z-1" src={"/assets/services_section/art_curation.svg"} />
+                <img className="h-51 w-46 sm:h-70 md:h-105 lg:h-135 sm:w-105 z-1" src={"/assets/services_section/art_curation.svg"} />
                 <img src={"/assets/services_section/tape3.svg"} className="absolute top-0 right-0 h-12 w-20 sm:h-15 sm:w-25 md:h-28 md:w-56 z-10" />
             </div>
         </div></>

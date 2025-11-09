@@ -32,9 +32,10 @@ function Contact() {
     };
 
     return (
-        <div className="h-dvh flex flex-col sm:flex-row snap-start justify-center gap-2 sm:gap-5 md:gap-10 md:justify-around items-center px-4 md:px-0">
-            <div className="hidden sm:block sm:w-2/6 lg:w-1/3">Whether you have an idea, a question, or simply want to explore how V can work together, V’re just a message away. Let’s catch up over coffee. Great stories always begin with a good conversation</div>
-            <div className="sm:w-2/6 lg:w-1/3 flex flex-col gap-3 md:gap-11">
+        <div id="contact" className="h-dvh flex flex-col sm:flex-row snap-start justify-center gap-2 sm:gap-5 md:gap-8 items-center px-4 md:px-0 relative">
+            <div className='absolute right-0 top-0 z-50'><img className="size-55 sm:size-60 md:size-70 lg:size-80" src={"/assets/contact_section/top_right_vector.svg"} /></div>
+            <div className="hidden sm:block sm:w-1/3 lg:w-4/10 lg:px-15 font-instrument text-xl z-100">Whether you have an idea, a question, or simply want to explore how V can work together, V’re just a message away. Let’s catch up over coffee. Great stories always begin with a good conversation</div>
+            <div className="sm:w-1/2 lg:w-5/10 flex flex-col gap-3 md:gap-11 z-100">
                 <div className="font-halant flex flex-col gap-2">
                     <p className="text-center text-2xl md:text-4xl">Join the Story</p>
                     <p className="text-center text-lg md:text-2xl">Ready to bring your vision to life? Let’s talk.</p>
@@ -96,6 +97,8 @@ function Contact() {
                     +91 98736 84567
                 </div>
             </div>
+            <div className='absolute left-0 bottom-0 z-50'><img className="size-55 sm:size-60 md:size-70 lg:size-80" src={"/assets/contact_section/bottom_left_vector.svg"} /></div>
+
         </div>
     )
 }

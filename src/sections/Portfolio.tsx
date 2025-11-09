@@ -1,11 +1,11 @@
 "use client";
 function Portfolio() {
     return (
-        <div className="h-dvh flex flex-col lg:flex-row snap-start justify-around items-center">
+        <div id="portfolio" className="h-dvh flex flex-col lg:flex-row snap-start justify-around items-center">
             <div className="w-full h-full flex flex-col gap-20 md:gap-10 pt-18 sm:pt-15 relative">
                 <div className="flex flex-col items-center w-full gap-2">
-                    <p className="font-halant text-4xl">The Highlight Reel</p>
-                    <p className="font-halant text-2xl">Watch the magic we’ve captured.</p>
+                    <p className="font-halant text-2xl sm:text-3xl md:text-4xl">The Highlight Reel</p>
+                    <p className="font-halant text-lg sm:text-xl md:text-2xl">Watch the magic we’ve captured.</p>
                 </div>
 
                 <div className="flex justify-center w-full gap-5">

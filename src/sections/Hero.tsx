@@ -1,6 +1,6 @@
 function Hero() {
   return (
-    <div className="h-dvh flex flex-col lg:flex-row snap-start justify-around items-center">
+    <div id="hero" className="h-dvh flex flex-col lg:flex-row snap-start justify-around items-center">
       <div className="lg:w-1/2 grid place-items-center mt-10 md:mt-0">
         <img src={"/assets/Hero Mandala.svg"} className="size-60 md:size-130 col-start-1 row-start-1" alt="Hero Mandala" />
         <img src={"/logo-high.png"} className="h-12 w-36 md:h-36 md:w-96 col-start-1 row-start-1" alt="Hero Mandala" />
